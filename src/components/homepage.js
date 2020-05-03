@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 class HomePage extends Component{
     render(){
         return(
-            <div>Mitch Lew Website</div>
+            <div>Mitch Lew's Website</div>
         )
     }
 }
-export default HomePage;
+export default HomePage;S
