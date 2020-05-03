@@ -1,11 +1,10 @@
 import React from 'react';
+import Main from './components/main';
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>Mitch Lew's App</h1>
-    </div>
+    <Main></Main>
   );
 }
 
