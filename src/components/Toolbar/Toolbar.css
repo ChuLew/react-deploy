@@ -35,7 +35,7 @@
      flex:1;
  }
  .toolbar_logo{
-     margin-left: 1rem;
+     margin-left: 0rem;
  }
 .toolbar_logo a{
     color:white;

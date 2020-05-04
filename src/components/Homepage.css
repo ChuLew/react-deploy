@@ -7,3 +7,13 @@ body{
     font-family:sans-serif;
     height:100%;
 }
+.avatar-img{
+    max-width: 50%;
+    max-height: 20%;
+    height:auto;
+}
+.center {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+  }
