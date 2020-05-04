@@ -1,7 +1,6 @@
 import React from 'react';
-import HomePage from "./homepage"
+import HomePage from "./Homepage"
 import {Switch,Route} from 'react-router-dom';
-
 
 const Main = () =>
  (
