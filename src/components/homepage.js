@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./Homepage.css";
 import Typewriter from 'typewriter-effect';
+import {Link} from 'react-router-dom';
 
 
 class HomePage extends Component {
@@ -50,9 +51,9 @@ class HomePage extends Component {
             </a>
 
             {/* Freecodecamp */}
-            <a download="resume.doc" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1ahTKPkfYQkhfhzbgSAzXpZSi0NNV9n0wboe8mwFjfJ4/edit?usp=sharing">
+            <Link to="resume.docx" target="_blank" download="MitchLewResume">
               <i className="fa fa-file" aria-hidden="true" />
-            </a>
+            </Link>
 
             </div>
           </div>
