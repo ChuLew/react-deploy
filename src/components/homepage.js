@@ -51,8 +51,8 @@ class HomePage extends Component {
             </a>
 
             {/* Freecodecamp */}
-            <Link to="resume.docx" target="_blank" download="MitchLewResume">
-              <i className="fa fa-file" aria-hidden="true" />
+            <Link to="MitchLewResume.docx" target="_blank" download>
+              <i className="fa fa-file" aria-hidden="true"/>
             </Link>
 
             </div>
