@@ -7,12 +7,8 @@ class HomePage extends Component {
 
   render() {
     return (
-      <div style={{ height: '100%' }}>
-        <div class="container">
-          <main style={{ marginTop: '58px' }}>
-            <div id="wrapper"><img src="https://i.imgur.com/KG2V2xP.jpg?1" alt="introImage" /></div>
-          </main>
-          <div className="centered">
+        <div>
+          <div className="center">
             <Typewriter options={{
                 skipAddStyles: false,
                 autoStart: true,
@@ -29,10 +25,7 @@ class HomePage extends Component {
                   typewriter.typeString('Disciplined')
                   .pauseFor(100)
                   .deleteAll()
-                  typewriter.typeString('Passionate')
-                  .pauseFor(100)
-                  .deleteAll()
-                  typewriter.typeString('Soccer Player')
+                  typewriter.typeString('Goal Oriented')
                   .pauseFor(100)
                   .deleteAll()
                   typewriter.typeString('Software Engineer')
@@ -41,17 +34,28 @@ class HomePage extends Component {
                   typewriter.typeString('Stay tuned...')
                   .pauseFor(1000)
                   .deleteAll()
-                  typewriter.typeString("I'm just getting started")
-                  .pauseFor(5000)
-                  .deleteAll()
                   .start();
               }}
             />
           </div>
+            <div className = "social-links">
+                {/* LinkedIn */}
+            <a href="https://www.linkedin.com/in/mitch-lew-88b67b135/" rel="noopener noreferrer" target="_blank">
+              <i className="fa fa-linkedin-square" aria-hidden="true" />
+            </a>
 
-        </div>
+            {/* Github */}
+            <a href="https://github.com/ChuLew" rel="noopener noreferrer" target="_blank">
+              <i className="fa fa-github-square" aria-hidden="true" />
+            </a>
 
-      </div>
+            {/* Freecodecamp */}
+            <a download="resume.doc" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1ahTKPkfYQkhfhzbgSAzXpZSi0NNV9n0wboe8mwFjfJ4/edit?usp=sharing">
+              <i className="fa fa-file" aria-hidden="true" />
+            </a>
+
+            </div>
+          </div>
     )
   }
 }
