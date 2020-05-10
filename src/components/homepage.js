@@ -50,10 +50,15 @@ class HomePage extends Component {
               <i className="fa fa-github-square" aria-hidden="true" />
             </a>
 
-            {/* Freecodecamp */}
+            {/* Resume */}
             <Link to="MitchLewResume.docx" target="_blank" download>
-              <i className="fa fa-file" aria-hidden="true"/>
+              <i className="fa fa-download" aria-hidden="true"/>
             </Link>
+
+            {/* Email */}
+            <a href="http://gmail.com" rel="noopener noreferrer" target="_blank">
+              <i className="fa fa-envelope-square" aria-hidden="true" />
+            </a>
 
             </div>
           </div>
