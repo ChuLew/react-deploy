@@ -4,7 +4,7 @@ class Projects extends Component{
       render() {
         return (
           <div>
-              <img src="https://help.semplice.com/hc/article_attachments/360027392932/projects.gif" alt="projectsImage" />
+             <a href="http://ec2-18-218-194-75.us-east-2.compute.amazonaws.com:8080/" rel="noopener noreferrer" target="_blank"></a>
           </div>
         )
       }
