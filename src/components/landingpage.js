@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import "./Homepage.css";
 import Typewriter from 'typewriter-effect';
 import {Link} from 'react-router-dom';
-
-
-class HomePage extends Component {
-
+import {sendEmail} from './email';
+class Landing extends Component {
   render() {
     return (
         <div>
           <div className="center">
+          
             <Typewriter options={{
                 skipAddStyles: false,
                 autoStart: true,
@@ -56,7 +55,9 @@ class HomePage extends Component {
             </Link>
 
             {/* Email */}
-            <a href="http://gmail.com" rel="noopener noreferrer" target="_blank">
+            <a href="http://gmail.com" rel="noopener noreferrer" target="_blank" onClick={()=>sendEmail('mitchginlew@gmail.com',
+    'Greeting!',
+    'Dear Mitch Lew,')}>
               <i className="fa fa-envelope-square" aria-hidden="true" />
             </a>
 
@@ -65,6 +66,6 @@ class HomePage extends Component {
     )
   }
 }
-export default HomePage;
+export default Landing;
 
 
