@@ -87,7 +87,7 @@ class Projects extends Component {
             <CardActions border>
               <Button colored>
                 <a
-                  href="github.com"
+                  href="https://github.com/ChuLew/stockMarket"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
